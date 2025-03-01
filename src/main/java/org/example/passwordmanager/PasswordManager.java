@@ -32,7 +32,7 @@ public class PasswordManager extends Application {
         menu.setPadding(new Insets(20, 20, 20, 30));
         menu.setSpacing(100);
 
-        Button enterButton = new Button("Enter Usernames and Passwords");
+        Button enterButton = new Button("Enter the Credentials");
         Button practiceButton = new Button("Find the Passwords");
 
         menu.getChildren().addAll(enterButton, practiceButton);
