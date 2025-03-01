@@ -18,7 +18,7 @@ public class Inputs {
     public Parent getView() {
         GridPane layout = new GridPane();
 
-        Label idLabel = new Label("Used ID");
+        Label idLabel = new Label("Used ID/Keyword");
         TextField idField = new TextField();
         Label passLabel = new Label("Password");
         TextField passField = new TextField();
